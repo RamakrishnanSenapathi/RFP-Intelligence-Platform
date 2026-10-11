@@ -1,0 +1,22 @@
+{
+  "_note": "TEMPLATE. Relevance = a retrieved chunk satisfies file_contains (substring of file name), doc_type, text_any (at least one substring) and text_all (every substring). These were written from the assignment text without seeing the PDFs: open the documents, tighten text_all/text_any with the exact phrases that answer each question, and re-run `python main.py eval`.",
+  "questions": [
+    {"id": "q01", "question": "What is the bid submission deadline?", "bid_id": "Bid1", "text_any": ["due date", "closing date", "no later than", "deadline", "must be received"]},
+    {"id": "q02", "question": "Which addendum changes the due date or deadline?", "bid_id": "Bid1", "doc_type": "addendum", "text_any": ["due date", "deadline", "extended", "extension", "closing"]},
+    {"id": "q03", "question": "What is the solicitation number JA-207652?", "bid_id": "Bid1", "text_all": ["JA-207652"]},
+    {"id": "q04", "question": "Is a bid bond or bid security required?", "bid_id": "Bid1", "text_any": ["bond", "bid security", "surety"]},
+    {"id": "q05", "question": "pre-bid meeting or pre-proposal conference details", "bid_id": "Bid1", "text_any": ["pre-bid", "pre bid", "pre-proposal", "conference", "mandatory"]},
+    {"id": "q06", "question": "What are the delivery requirements after award?", "bid_id": "Bid1", "text_any": ["delivery", "deliver"]},
+    {"id": "q07", "question": "What are the payment terms and invoicing conditions?", "bid_id": "Bid1", "text_any": ["payment", "invoice", "net 30", "net thirty"]},
+    {"id": "q08", "question": "What does Addendum 2 change?", "bid_id": "Bid1", "doc_type": "addendum", "file_contains": "Addendum 2", "text_any": ["addendum"]},
+    {"id": "q09", "question": "Who is the procurement contact name email and phone?", "bid_id": "Bid1", "text_any": ["@", "contact", "phone", "e-mail", "email"]},
+    {"id": "q10", "question": "What Dell laptop model is requested?", "bid_id": "Bid2", "text_any": ["latitude", "model", "dell", "laptop"]},
+    {"id": "q11", "question": "What is the extended warranty requirement?", "bid_id": "Bid2", "text_any": ["warranty"]},
+    {"id": "q12", "question": "Which affidavits must be submitted with the bid?", "bid_id": "Bid2", "text_any": ["affidavit"]},
+    {"id": "q13", "question": "What does the contract affidavit require the bidder to certify?", "bid_id": "Bid2", "doc_type": "affidavit", "file_contains": "Contract Affidavit", "text_any": ["affidavit", "certify", "contract"]},
+    {"id": "q14", "question": "Mercury affidavit requirements", "bid_id": "Bid2", "doc_type": "affidavit", "file_contains": "Mercury", "text_any": ["mercury"]},
+    {"id": "q15", "question": "laptop processor memory RAM storage display specifications", "bid_id": "Bid2", "doc_type": "specs", "text_any": ["processor", "memory", "ram", "ssd", "storage", "display"]},
+    {"id": "q16", "question": "part number SKU for the Dell laptop", "bid_id": "Bid2", "doc_type": "specs", "text_any": ["part", "sku", "model"]},
+    {"id": "q17", "question": "What is the bid due date for the Dell laptop RFP?", "bid_id": "Bid2", "text_any": ["due", "deadline", "closing", "no later than"]}
+  ]
+}

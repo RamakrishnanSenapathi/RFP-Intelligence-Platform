@@ -1,0 +1,306 @@
+{
+  "vector-only": {
+    "Recall@1": 0.294,
+    "Recall@3": 0.353,
+    "Recall@5": 0.412,
+    "MRR": 0.342,
+    "per_question": [
+      {
+        "id": "q01",
+        "first_relevant_rank": 1
+      },
+      {
+        "id": "q02",
+        "first_relevant_rank": 1
+      },
+      {
+        "id": "q03",
+        "first_relevant_rank": null
+      },
+      {
+        "id": "q04",
+        "first_relevant_rank": 6
+      },
+      {
+        "id": "q05",
+        "first_relevant_rank": 9
+      },
+      {
+        "id": "q06",
+        "first_relevant_rank": 1
+      },
+      {
+        "id": "q07",
+        "first_relevant_rank": null
+      },
+      {
+        "id": "q08",
+        "first_relevant_rank": null
+      },
+      {
+        "id": "q09",
+        "first_relevant_rank": 1
+      },
+      {
+        "id": "q10",
+        "first_relevant_rank": 1
+      },
+      {
+        "id": "q11",
+        "first_relevant_rank": 3
+      },
+      {
+        "id": "q12",
+        "first_relevant_rank": null
+      },
+      {
+        "id": "q13",
+        "first_relevant_rank": null
+      },
+      {
+        "id": "q14",
+        "first_relevant_rank": null
+      },
+      {
+        "id": "q15",
+        "first_relevant_rank": null
+      },
+      {
+        "id": "q16",
+        "first_relevant_rank": null
+      },
+      {
+        "id": "q17",
+        "first_relevant_rank": 5
+      }
+    ]
+  },
+  "bm25-only": {
+    "Recall@1": 0.412,
+    "Recall@3": 0.529,
+    "Recall@5": 0.529,
+    "MRR": 0.461,
+    "per_question": [
+      {
+        "id": "q01",
+        "first_relevant_rank": 1
+      },
+      {
+        "id": "q02",
+        "first_relevant_rank": 1
+      },
+      {
+        "id": "q03",
+        "first_relevant_rank": null
+      },
+      {
+        "id": "q04",
+        "first_relevant_rank": 3
+      },
+      {
+        "id": "q05",
+        "first_relevant_rank": 1
+      },
+      {
+        "id": "q06",
+        "first_relevant_rank": 2
+      },
+      {
+        "id": "q07",
+        "first_relevant_rank": null
+      },
+      {
+        "id": "q08",
+        "first_relevant_rank": null
+      },
+      {
+        "id": "q09",
+        "first_relevant_rank": 1
+      },
+      {
+        "id": "q10",
+        "first_relevant_rank": 1
+      },
+      {
+        "id": "q11",
+        "first_relevant_rank": 1
+      },
+      {
+        "id": "q12",
+        "first_relevant_rank": null
+      },
+      {
+        "id": "q13",
+        "first_relevant_rank": null
+      },
+      {
+        "id": "q14",
+        "first_relevant_rank": null
+      },
+      {
+        "id": "q15",
+        "first_relevant_rank": null
+      },
+      {
+        "id": "q16",
+        "first_relevant_rank": null
+      },
+      {
+        "id": "q17",
+        "first_relevant_rank": 1
+      }
+    ]
+  },
+  "hybrid (RRF)": {
+    "Recall@1": 0.353,
+    "Recall@3": 0.529,
+    "Recall@5": 0.529,
+    "MRR": 0.431,
+    "per_question": [
+      {
+        "id": "q01",
+        "first_relevant_rank": 1
+      },
+      {
+        "id": "q02",
+        "first_relevant_rank": 1
+      },
+      {
+        "id": "q03",
+        "first_relevant_rank": null
+      },
+      {
+        "id": "q04",
+        "first_relevant_rank": 2
+      },
+      {
+        "id": "q05",
+        "first_relevant_rank": 3
+      },
+      {
+        "id": "q06",
+        "first_relevant_rank": 1
+      },
+      {
+        "id": "q07",
+        "first_relevant_rank": null
+      },
+      {
+        "id": "q08",
+        "first_relevant_rank": null
+      },
+      {
+        "id": "q09",
+        "first_relevant_rank": 1
+      },
+      {
+        "id": "q10",
+        "first_relevant_rank": 1
+      },
+      {
+        "id": "q11",
+        "first_relevant_rank": 1
+      },
+      {
+        "id": "q12",
+        "first_relevant_rank": null
+      },
+      {
+        "id": "q13",
+        "first_relevant_rank": null
+      },
+      {
+        "id": "q14",
+        "first_relevant_rank": null
+      },
+      {
+        "id": "q15",
+        "first_relevant_rank": null
+      },
+      {
+        "id": "q16",
+        "first_relevant_rank": null
+      },
+      {
+        "id": "q17",
+        "first_relevant_rank": 2
+      }
+    ]
+  },
+  "hybrid + LLM re-ranker": {
+    "Recall@1": 0.412,
+    "Recall@3": 0.529,
+    "Recall@5": 0.529,
+    "MRR": 0.471,
+    "per_question": [
+      {
+        "id": "q01",
+        "first_relevant_rank": 1
+      },
+      {
+        "id": "q02",
+        "first_relevant_rank": 1
+      },
+      {
+        "id": "q03",
+        "first_relevant_rank": null
+      },
+      {
+        "id": "q04",
+        "first_relevant_rank": 2
+      },
+      {
+        "id": "q05",
+        "first_relevant_rank": 1
+      },
+      {
+        "id": "q06",
+        "first_relevant_rank": 1
+      },
+      {
+        "id": "q07",
+        "first_relevant_rank": null
+      },
+      {
+        "id": "q08",
+        "first_relevant_rank": null
+      },
+      {
+        "id": "q09",
+        "first_relevant_rank": 1
+      },
+      {
+        "id": "q10",
+        "first_relevant_rank": 1
+      },
+      {
+        "id": "q11",
+        "first_relevant_rank": 1
+      },
+      {
+        "id": "q12",
+        "first_relevant_rank": null
+      },
+      {
+        "id": "q13",
+        "first_relevant_rank": null
+      },
+      {
+        "id": "q14",
+        "first_relevant_rank": null
+      },
+      {
+        "id": "q15",
+        "first_relevant_rank": null
+      },
+      {
+        "id": "q16",
+        "first_relevant_rank": null
+      },
+      {
+        "id": "q17",
+        "first_relevant_rank": 2
+      }
+    ]
+  }
+}

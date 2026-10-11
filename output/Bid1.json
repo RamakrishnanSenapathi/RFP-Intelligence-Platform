@@ -1,0 +1,335 @@
+{
+  "bid_id": "Bid1",
+  "fields": {
+    "Bid Number": {
+      "value": "JA-207652",
+      "sources": [
+        {
+          "file": "Addendum 1 RFP JA-207652 Student and Staff Computing Devices.pdf",
+          "page": 4,
+          "quote": "Addendum 1 RFP JA-207652 Student and Staff Computing Devices.pdf"
+        }
+      ],
+      "confidence": 0.4,
+      "notes": "Extracted from the filename and addendum text. [quote not verbatim in cited passage] | NEEDS REVIEW – validator: no cited quote could be verified in the cited passage",
+      "status": "failed",
+      "retries": 2
+    },
+    "Title": {
+      "value": "Student and Staff Computing Devices",
+      "sources": [
+        {
+          "file": "Addendum 1 RFP JA-207652 Student and Staff Computing Devices.pdf",
+          "page": 4,
+          "quote": "Addendum 1 RFP JA-207652 Student and Staff Computing Devices.pdf"
+        }
+      ],
+      "confidence": 0.4,
+      "notes": "Extracted from the addendum document title. [quote not verbatim in cited passage] | NEEDS REVIEW – validator: no cited quote could be verified in the cited passage",
+      "status": "failed",
+      "retries": 2
+    },
+    "Due Date": {
+      "value": null,
+      "sources": [],
+      "confidence": 0.8,
+      "notes": "Not found in documents",
+      "status": "not_found"
+    },
+    "Bid Submission Type": {
+      "value": "Electronic portal (Oracle RFP input tool) or manual responses (PDF version of the solicitation / Response Attachments)",
+      "sources": [
+        {
+          "file": "Addendum 1 RFP JA-207652 Student and Staff Computing Devices.pdf",
+          "page": 4,
+          "quote": "If responding electronically, a pdf version is not required. Manual responses should have direct edits on the PDF, supporting documentation can be included as part of the submission"
+        },
+        {
+          "file": "Addendum 1 RFP JA-207652 Student and Staff Computing Devices.pdf",
+          "page": 3,
+          "quote": "quote value field of the Oracle RFP input tool"
+        }
+      ],
+      "confidence": 0.9,
+      "notes": "",
+      "status": "passed"
+    },
+    "Term of Bid": {
+      "value": null,
+      "sources": [],
+      "confidence": 0.8,
+      "notes": "Not found in documents",
+      "status": "not_found"
+    },
+    "Pre Bid Meeting": {
+      "value": null,
+      "sources": [],
+      "confidence": 0.8,
+      "notes": "Not found in documents",
+      "status": "not_found"
+    },
+    "Installation": {
+      "value": "Yes, white glove services including asset decaling, asset reporting, etching, and delivery, plus software installation (Autopilot for Windows devices, Google Management enrollment for Chromebooks)",
+      "sources": [
+        {
+          "file": "Addendum 1 RFP JA-207652 Student and Staff Computing Devices.pdf",
+          "page": 1,
+          "quote": "All deliveries and deployments must incorporate white glove services, which include asset decaling, asset reporting, etching, and delivery to varied locations."
+        },
+        {
+          "file": "Addendum 1 RFP JA-207652 Student and Staff Computing Devices.pdf",
+          "page": 4,
+          "quote": "For Windows devices, autopilot is required. For Chromebooks, enrollment in Google Management is required."
+        }
+      ],
+      "confidence": 1.0,
+      "notes": "",
+      "status": "passed"
+    },
+    "Bid Bond Requirement": {
+      "value": null,
+      "sources": [],
+      "confidence": 0.8,
+      "notes": "Not found in documents",
+      "status": "not_found"
+    },
+    "Delivery Date": {
+      "value": "Dallas ISD is anticipating requesting quotes for different projects from awarded vendors starting in September of 2024; quantities spread over life of contract.",
+      "sources": [
+        {
+          "file": "Addendum 1 RFP JA-207652 Student and Staff Computing Devices.pdf",
+          "page": 1,
+          "quote": "Dallas ISD is anticipating requesting quotes for different projects from awarded vendors starting in September of 2024."
+        },
+        {
+          "file": "Addendum 1 RFP JA-207652 Student and Staff Computing Devices.pdf",
+          "page": 2,
+          "quote": "The quantities will be spread over life of the contract."
+        }
+      ],
+      "confidence": 0.9,
+      "notes": "",
+      "status": "passed"
+    },
+    "Payment Terms": {
+      "value": null,
+      "sources": [],
+      "confidence": 0.8,
+      "notes": "Not found in documents",
+      "status": "not_found"
+    },
+    "Any Additional Documentation Required": {
+      "value": "Form 1295 - Certificate of Interested Parties; Addendum acknowledgement and return/submit a copy of the addendum with the proposal",
+      "sources": [
+        {
+          "file": "Addendum 1 RFP JA-207652 Student and Staff Computing Devices.pdf",
+          "page": 4,
+          "quote": "The Form 1295 should be submitted with the RFP response."
+        },
+        {
+          "file": "Addendum 1 RFP JA-207652 Student and Staff Computing Devices.pdf",
+          "page": 5,
+          "quote": "BIDDERS ARE REQUIRED TO ACKNOWLEDGE AND RETURN/SUBMIT A COPY OF THIS ADDENDUM WITH THEIR PROPOSAL."
+        }
+      ],
+      "confidence": 0.95,
+      "notes": "",
+      "status": "passed"
+    },
+    "MFG for Registration": {
+      "value": null,
+      "sources": [],
+      "confidence": 0.8,
+      "notes": "Not found in documents",
+      "status": "not_found"
+    },
+    "Contract or Cooperative to use": {
+      "value": null,
+      "sources": [],
+      "confidence": 0.8,
+      "notes": "Not found in documents",
+      "status": "not_found"
+    },
+    "Model_no": {
+      "value": null,
+      "sources": [],
+      "confidence": 0.8,
+      "notes": "Not found in documents",
+      "status": "not_found"
+    },
+    "Part_no": {
+      "value": null,
+      "sources": [],
+      "confidence": 0.8,
+      "notes": "Not found in documents",
+      "status": "not_found"
+    },
+    "Product": {
+      "value": "student Chromebooks; student and staff Windows laptops; Display monitor – non-Touch; AIO Computers; laptops; tablets; monitors",
+      "sources": [
+        {
+          "file": "Addendum 1 RFP JA-207652 Student and Staff Computing Devices.pdf",
+          "page": 1,
+          "quote": "Dallas ISD is asking for a one-year warranty for student Chromebooks and three years for student and staff Windows laptops."
+        },
+        {
+          "file": "Addendum 1 RFP JA-207652 Student and Staff Computing Devices.pdf",
+          "page": 4,
+          "quote": "Evaluation Units: laptops, tablets, monitors, etc."
+        }
+      ],
+      "confidence": 0.9,
+      "notes": "Extracted from various questions and answers referencing the computing devices and hardware categories requested in the solicitation.",
+      "status": "passed"
+    },
+    "contact_info": {
+      "value": null,
+      "sources": [],
+      "confidence": 0.8,
+      "notes": "Not found in documents",
+      "status": "not_found"
+    },
+    "company_name": {
+      "value": "Dallas ISD",
+      "sources": [
+        {
+          "file": "Addendum 1 RFP JA-207652 Student and Staff Computing Devices.pdf",
+          "page": 1,
+          "quote": "Dallas ISD will primarily be using bond-funded money to purchase devices."
+        }
+      ],
+      "confidence": 0.5,
+      "notes": "",
+      "status": "passed"
+    },
+    "Bid Summary": {
+      "value": "Dallas ISD is issuing bid JA-207652 for Student and Staff Computing Devices, including student Chromebooks, Windows laptops, display monitors, AIO computers, and tablets. Proposals may be submitted via an electronic portal (Oracle RFP input tool) or through manual responses using the PDF version of the solicitation and response attachments. Key requirements include white glove installation and delivery services such as asset decaling, reporting, etching, and specific software installations, along with required warranties and product specifications. Additional documentation required includes Form 1295 Certificate of Interested Parties and addendum acknowledgements. Dallas ISD anticipates requesting quotes for different projects from awarded vendors starting in September of 2024.",
+      "sources": [
+        {
+          "file": "Addendum 1 RFP JA-207652 Student and Staff Computing Devices.pdf",
+          "page": 4,
+          "quote": "Addendum 1 RFP JA-207652 Student and Staff Computing Devices.pdf"
+        },
+        {
+          "file": "Addendum 1 RFP JA-207652 Student and Staff Computing Devices.pdf",
+          "page": 1,
+          "quote": "Dallas ISD is asking for a one-year warranty for student Chromebooks and three years for student and staff Windows laptops."
+        }
+      ],
+      "confidence": 0.85,
+      "notes": "Generated from the extracted field values",
+      "status": "passed"
+    },
+    "Product Specification": {
+      "value": "Windows devices: autopilot required, 3-year OEM warranty. Chromebooks: Google Management enrollment required, 1-year OEM warranty, minimum 65W chargers. Display monitor (non-Touch): USB 3.1 minimum port. AIO Desktops: require a webcam. All devices: white glove services (asset decaling, asset reporting, etching, delivery), OEM warranties.",
+      "sources": [
+        {
+          "file": "Addendum 1 RFP JA-207652 Student and Staff Computing Devices.pdf",
+          "page": 4,
+          "quote": "For Windows devices, autopilot is required. For Chromebooks, enrollment in Google Management is required."
+        },
+        {
+          "file": "Addendum 1 RFP JA-207652 Student and Staff Computing Devices.pdf",
+          "page": 1,
+          "quote": "As a minimum requirement, Dallas ISD is asking for a one-year warranty for student Chromebooks and three years for student and staff Windows laptops."
+        },
+        {
+          "file": "Addendum 1 RFP JA-207652 Student and Staff Computing Devices.pdf",
+          "page": 2,
+          "quote": "Do the AIO Desktops require a webcam?\nAnswer:\nYes."
+        }
+      ],
+      "confidence": 0.95,
+      "notes": "Specifications aggregated from addendum responses regarding requirements for Windows, Chromebooks, monitors, and AIO desktops.",
+      "status": "passed"
+    }
+  },
+  "addendum_changes": [],
+  "validation": {
+    "passed": 8,
+    "failed": 2,
+    "not_found": 10,
+    "retries": {
+      "Bid Number": 2,
+      "Title": 2
+    }
+  },
+  "documents": [
+    {
+      "file": "Addendum 1 RFP JA-207652 Student and Staff Computing Devices.pdf",
+      "doc_type": "addendum",
+      "addendum_number": 1,
+      "pages": 5,
+      "date": "2024-06-13"
+    }
+  ],
+  "errors": [],
+  "run_id": "extract-Bid1-20261011-111908-e1ede5",
+  "trace_summary": {
+    "per_agent": {
+      "orchestrator": {
+        "steps": 1,
+        "llm_calls": 0,
+        "tokens_in": 0,
+        "tokens_out": 0,
+        "latency_ms": 2
+      },
+      "ingestion_agent": {
+        "steps": 1,
+        "llm_calls": 0,
+        "tokens_in": 0,
+        "tokens_out": 0,
+        "latency_ms": 3556
+      },
+      "retrieval": {
+        "steps": 23,
+        "llm_calls": 23,
+        "tokens_in": 70936,
+        "tokens_out": 558,
+        "latency_ms": 265433
+      },
+      "extraction": {
+        "steps": 5,
+        "llm_calls": 10,
+        "tokens_in": 24507,
+        "tokens_out": 3218,
+        "latency_ms": 342833
+      },
+      "addendum_reconciliation": {
+        "steps": 3,
+        "llm_calls": 4,
+        "tokens_in": 14864,
+        "tokens_out": 2725,
+        "latency_ms": 19469
+      },
+      "validator": {
+        "steps": 3,
+        "llm_calls": 3,
+        "tokens_in": 12744,
+        "tokens_out": 752,
+        "latency_ms": 16959
+      },
+      "orchestrator_retry": {
+        "steps": 2,
+        "llm_calls": 0,
+        "tokens_in": 0,
+        "tokens_out": 0,
+        "latency_ms": 0
+      },
+      "report_agent": {
+        "steps": 1,
+        "llm_calls": 1,
+        "tokens_in": 402,
+        "tokens_out": 146,
+        "latency_ms": 3806
+      }
+    },
+    "total": {
+      "steps": 39,
+      "llm_calls": 41,
+      "tokens_in": 123453,
+      "tokens_out": 7399,
+      "latency_ms": 652058
+    }
+  }
+}

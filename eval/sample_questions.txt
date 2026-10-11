@@ -1,0 +1,15 @@
+# One question per line (used by: python main.py qa-log)
+What is the submission deadline for Bid1 after all addendums?
+Which affidavits are required for the Dell laptop bid?
+Compare the warranty requirements of both bids.
+Is a bid bond required, and if so, how much?
+What changed in Addendum 2 compared to the original RFP?
+Who is the procurement contact for Bid1?
+What are the delivery requirements for each bid?
+What are the payment terms?
+Is a pre-bid meeting scheduled, and is attendance mandatory?
+What are the key technical specifications of the Dell laptops?
+Is installation or imaging of devices required?
+Which manufacturer must bidders be registered or authorized with?
+What documents must be submitted with the bid for Bid2?
+How must bids be submitted for each bid?

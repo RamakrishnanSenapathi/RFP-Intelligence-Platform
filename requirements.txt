@@ -1,0 +1,16 @@
+google-genai>=1.0.0
+langgraph>=0.2.50
+pydantic>=2.6
+python-dotenv>=1.0
+pymupdf>=1.24.0
+beautifulsoup4>=4.12
+lxml>=5.0
+numpy>=1.26
+rank-bm25>=0.2.2
+streamlit>=1.35
+fastapi>=0.110
+uvicorn>=0.29
+python-multipart>=0.0.9
+pandas>=2.0
+pytest>=8.0
+# Optional (only if RERANKER_BACKEND=cross_encoder): sentence-transformers
